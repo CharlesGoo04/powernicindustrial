@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powernic Industrial | Hari Raya Special Promotion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #00843D;
+            --secondary-color: #FFB800;
+            --text-color: #333;
+            --light-bg: #F8F9FA;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Header styles from home.html */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #e74c3c;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header-content span {
+            color: white;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url('file:///C:/Users/User/Downloads/selamat-hari-raya-aidilfitri-with-ketupat-free-vector.jpg') center/cover;
+            height: 250vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s ease 0.2s;
+        }
+
+        /* Promotion Section */
+        .promotion {
+            padding: 100px 20px;
+            background-color: var(--light-bg);
+        }
+
+        .promotion-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .promo-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .promo-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Button styles */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #006830;
+        }
+
+        /* Contact Section from home.html */
+        .contact {
+            background-color: #2c3e50;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact-info {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Update footer styling */
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Powernic Industrial <span>Hardware Shop</span></h1>
+            <h1>康祥 <span>五金企业</span></h1>
+            <p>Your Trusted Hardware Shop in Ayer Keroh, Melaka Since 2008</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Homepage</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Hari Raya Aidilfitri</h1>
+            <p>Celebrate with Special Deals on Premium Industrial Seals</p>
+            <a href="#promotion" class="btn">View Promotions</a>
+        </div>
+    </section>
+
+    <section id="promotion" class="promotion">
+        <div class="promotion-grid">
+            <div class="promo-card">
+                <img src="photo_2025-02-08_13-31-31.jpg" alt="Easywash 1001 Paint" style="width: 200px; height: 200px; object-fit: cover;">
+                <h3>Easywash 1001 Brilliant White</h3>
+                <p>18 Litre (White Colours only)</p>
+                <p>RM 399</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=57+JALAN+MH+1+TAMAN+MUZAFFAR+HEIGHTS+AYER+KEROH+MELAKA" target="_blank" class="btn">Shop Now</a>
+            </div>
+
+            <div class="promo-card">
+                <img src="photo_2025-02-08_13-31-38.jpg" alt="Matex 15245 Paint" style="width: 200px; height: 200px; object-fit: cover;">
+                <h3>Matex 15245 White</h3>
+                <p>18 Litre (White Colours only)</p>
+                <p>RM 86</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=57+JALAN+MH+1+TAMAN+MUZAFFAR+HEIGHTS+AYER+KEROH+MELAKA" target="_blank" class="btn">Shop Now</a>
+            </div>
+
+            <div class="promo-card">
+                <img src="photo_2025-02-08_13-31-35.jpg" alt="Weatherbond Paint" style="width: 200px; height: 200px; object-fit: cover;">
+                <h3>Weatherbond</h3>
+                <p>5 Litre - 50 Colours Available</p>
+                <p>RM 180</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=57+JALAN+MH+1+TAMAN+MUZAFFAR+HEIGHTS+AYER+KEROH+MELAKA" target="_blank" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h2>Connect With Our Experts</h2>
+            <p>Get professional consultation for your industrial hardware needs</p>
+            <br>
+            <p><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/search/?api=1&query=57+JALAN+MH+1+TAMAN+MUZAFFAR+HEIGHTS+AYER+KEROH+MELAKA" target="_blank" style="color: white; text-decoration: underline;">57,JALAN MH 1,TAMAN MUZAFFAR HEIGHTS,AYER KEROH,MELAKA</a></p>
+            <p><i class="fab fa-facebook"></i> <a href="https://web.facebook.com/profile.php?id=100063469156512" target="_blank" style="color: white; text-decoration: underline;">POWERNIC INDUSTRIAL</a></p>
+            <p><i class="fas fa-phone"></i> Contact us: <a href="https://wa.me/60126161562" target="_blank" style="color: white; text-decoration: underline;">012-6161562</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Powernic Industrial. All rights reserved.</p>
+    </footer>
+</body>
+</html>
